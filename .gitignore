@@ -1,0 +1,10 @@
+._*
+.~lock.*
+.idea/
+.DS_Store
+composer.lock
+composer.phar
+vendor
+/config/autoload/doctrine.local.php
+/config/autoload/local.php
+/config/autoload/doctrine.global.php

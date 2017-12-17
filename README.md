@@ -5,7 +5,7 @@ Game api with calculation ELO raiting.
 ## Requirements
 
 * PHP 5.5
-* Vagrant VM [use this repository for get VM to this project](git@github.com:DimonchikSP/vagrant_vm.git)
+* Vagrant VM [use this repository for get VM to this project](https://github.com/DimonchikSP/vagrant_vm)
 
 ## Install project
 

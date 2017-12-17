@@ -16,14 +16,16 @@ Game api with calculation ELO raiting.
     ```
     curl -sS https://getcomposer.org/installer | php
     ```
-
-3. Install the dependencies:
+3. Install composer:
 
     ```
     php composer.phar install
     ```
-
-4. Create and setup DB connection configs:
+4. Install the dependencies:
+    ```
+    composer install
+    ```
+5. Create and setup DB connection configs:
     - setup config/local.php
 
     ```
@@ -39,13 +41,13 @@ Game api with calculation ELO raiting.
         ]
     ];
     ```
-5. Create DB from MySql cli:
+6. Create DB from MySql cli:
 
     ```
     CREATE DATABASE dbname CHARACTER SET utf8 COLLATE utf8_general_ci;
     ```
 
-6. Install dump to DB:
+7. Install dump to DB:
 
     ```
     mysql -u DBUSER -p DBNAME < PROJECT_ROOT/murka.sql
